@@ -2,7 +2,7 @@
 
 This sample repo showcases an event-driven way to perform Azure Machine Learning no code deployment. It contains an Azure Function which is triggered by `Microsoft.MachineLearningServices.ModelRegistered` event published from Azure Event Grid.
 
-## Prerequsites:
+## Prerequisites:
 1. Have an Azure subscription
 2. Register Azure Machine Learning and Azure Event Grid resource providers in your subscription if they are not registered yet. (**Note**: If Azure Machine Learning and Azure Event Grid were registered before Nov. 5, 2019, you will need to re-register them in your subscription. This is an one time thing.) 
 3. Create an Azure Machine Learning workspace.
